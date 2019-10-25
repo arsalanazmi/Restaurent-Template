@@ -1,0 +1,1862 @@
+/* ----------------------------------------
+            NAVBAR (START)              
+----------------------------------------- */
+@media only screen and (min-width: 842px) and  (max-width: 875px){
+  nav div li a button {
+    padding: 8px 5px !important;
+  }
+}
+/* ------------------------------------------
+            NAVBAR (END)              
+-----------------------------------------  */
+
+/* ------------------------------------------
+            BODY (START)              
+-----------------------------------------  */
+
+@media only screen and (min-width: 1901px) {
+  /* ABOUT */
+  .about-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about-text{
+    position: relative;
+    top:50px;
+    left:60px;
+  }
+  .about-image{
+    position: relative;
+    top:90px;
+  }
+  .about-image img{
+    position: relative;
+    left:200px;
+    height:60% ;
+    width:60%;
+  }
+  /* CONTACT */
+  .container-contact{
+    justify-content: space-evenly;
+  }
+  .map iframe{
+    width:800px;
+  }
+  .name input{
+    margin-right:20px;
+    width:390px !important;
+  }
+  .email input{
+    width:390px !important;
+  }
+  .form{
+    width:800px;
+  }
+  .form button{
+    padding:12px 346px;
+  }
+}
+@media only screen and (min-width: 1701px) and  (max-width: 1900px){
+  /* ABOUT */
+  .about-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about-text{
+    position: relative;
+    top:70px;
+    left:60px;
+  }
+  .about-image{
+    position: relative;
+    top:50px;
+  }
+  .about-image img{
+    position: relative;
+    left:80px;
+    height:80%;
+    width:80%;
+  }
+  /* CONTACT */
+  .map iframe{
+    width:700px;
+  }
+  .name input{
+    margin-right:20px;
+    width:340px !important;
+  }
+  .email input{
+    width:340px !important;
+  }
+  .form{
+    width:700px;
+  }
+  .form button{
+    padding:12px 296px;
+  }
+}
+@media only screen and (min-width: 1501px) and  (max-width: 1700px){
+  /* ABOUT */
+  .about-container{
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  .about-text{
+    position: relative;
+    top:40px;
+    left:30px;
+  }
+  .about-image{
+    position: relative;
+    top:40px;
+  }
+  .about-image img{
+    position: relative;
+    left:80px;
+    height:80% ;
+    width:80%;
+  }
+  /* CONTACT */
+  .map iframe{
+    width:600px;
+  }
+  .name input{
+    margin-right:20px;
+    width:290px !important;
+  }
+  .email input{
+    width:290px !important;
+  }
+  .form{
+    width:600px;
+  }
+  .form button{
+    padding:12px 246px;
+  }
+}
+@media only screen and (min-width: 1201px) and  (max-width: 1500px){
+  /* ABOUT */
+  .about-container{
+    padding-top: 30px;
+    padding-bottom: 130px;
+  }
+  .about-text{
+    position: relative;
+    top:30px;
+    left:50px;
+  }
+  .about-image{
+    position: relative;
+    top:80px;
+  }
+  .about-image img{
+    position: relative;
+    left:80px;
+    height:80% ;
+    width:80%;
+  }
+}
+@media only screen and (min-width: 1067px) and  (max-width: 1200px){
+  /* ABOUT */
+  .about-container{
+    padding-top: 50px;
+    padding-bottom: 110px;
+  }
+  .about-image img{
+    position:relative;
+    top:30px;
+    left:50px;
+    height:85% ;
+    width:85%;
+  }
+  .about-text{
+    position: relative;
+    left:30px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 30px;
+    margin-left: -5px;
+  }
+  .menu-price{
+    padding-top: 30px;
+    margin-right: -20px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:520px !important;
+  }
+  .container-contact .form{
+    width:440px !important;
+    margin-right: 20px;
+  }
+  .name input{
+    margin-right:20px;
+    width:210px !important;
+  }
+  .email input{
+    width:210px !important;
+  }
+  .form button{
+    padding:12px 165px;
+  }
+}
+@media only screen and (min-width: 992px) and  (max-width: 1066px){
+  /* ABOUT */
+  .about-container{
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+  .about-image img{
+    position:relative;
+    top:20px;
+    height:90% ;
+    width:85%;
+  }
+  .about-text{
+    position: relative;
+    left:30px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 40px;
+    margin-left: -5px;
+  }
+  .menu-price{
+    padding-top: 30px;
+    margin-right: -20px;
+    font-size: 18px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:500px !important;
+  }
+  .container-contact .form{
+    width:400px !important;
+    margin-right: -10px;
+  }
+  .name input{
+    margin-right:10px;
+    width:190px !important;
+  }
+  .email input{
+    width:190px !important;
+  }
+  .form button{
+    padding:12px 146px;
+  }
+}
+@media only screen and (min-width: 920px) and  (max-width: 991px){
+  /* MENU */
+  .menu-item{
+    padding-top: 50px;
+    margin-left: -8px;
+  }
+  .menu-price{
+    padding-top: 40px;
+    margin-right: -25px;
+    font-size: 18px;
+  }
+} 
+@media only screen and (min-width: 900px) and (max-width: 991px){
+  /* ABOUT */
+  .about-image img{
+    width:820px;
+    position:relative;
+    left:65px;
+    top:20px;
+  }
+  .about-text{
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 50px;
+    margin-left: -5px;
+  }
+  .menu-item h4{
+    font-size:20px;
+  } 
+  .menu-item p{
+    font-size:14px;
+  } 
+  .menu-price{
+    padding-top: 40px;
+    margin-right: -20px;
+    font-size: 18px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:750px !important;
+    margin-right: -40px !important;
+    margin-top:-25px;
+  }
+  .container-contact .form{
+    padding:20px;
+    width:780px !important;
+    margin-right: 5px;
+  }
+  .name input{
+    margin-right:20px;
+    width:360px !important;
+  }
+  .email input{
+    width:360px !important;
+  }
+  .form button{
+    padding:12px 316px;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 899px){
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:1px;
+    left:10px;
+    width:760px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 50px;
+    margin-left: -5px;
+  }
+  .menu-item h4{
+    font-size:20px;
+  } 
+  .menu-item p{
+    font-size:14px;
+  } 
+  .menu-price{
+    padding-top: 40px;
+    margin-right: -20px;
+    font-size: 18px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:750px !important;
+    margin-right: -40px !important;
+    margin-top:-25px;
+  }
+  .container-contact .form{
+    padding-top:20px;
+    width:730px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:355px !important;
+  }
+  .email input{
+    width:355px !important;
+  }
+  .form button{
+    padding:12px 311px;
+  }
+}
+@media only screen and (min-width: 777px) and (max-width: 849px){
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:5px;
+    left: 20px;
+    width:700px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 70px;
+    margin-left: -5px;
+  }
+  .menu-item h4{
+    font-size:17px;
+  } 
+  .menu-item p{
+    font-size:12px;
+  } 
+  .menu-price{
+    padding-top: 60px;
+    margin-right: -20px;
+    font-size: 17px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:720px !important;
+    margin-right: -40px !important;
+    margin-top:-30px;
+  }
+  .container-contact .form{
+    padding-top:20px;
+    width:700px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:340px !important;
+  }
+  .email input{
+    width:340px !important;
+  }
+  .form button{
+    padding:12px 296px;
+  }
+}
+@media only screen and (min-width: 708px) and (max-width: 776px){
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+    width:650px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 70px;
+    margin-left: -7px;
+  }
+  .menu-item h4{
+    font-size:16px;
+  } 
+  .menu-item p{
+    font-size:12px;
+  } 
+  .menu-price{
+    padding-top: 60px;
+    margin-right: -25px;
+    font-size: 16px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 10px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:660px !important;
+    height:400px !important;
+    margin-right: -40px !important;
+    margin-top:-30px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:660px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:310px !important;
+  }
+  .email input{
+    width:310px !important;
+  }
+  .form button{
+    padding:12px 266px;
+  }
+}
+@media only screen and (min-width: 647px) and (max-width: 707px){
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+    width:600px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 70px;
+    margin-left: -15px;
+  }
+  .menu-item h4{
+    font-size:16px;
+  } 
+  .menu-item p{
+    font-size:12px;
+  } 
+  .menu-price{
+    padding-top: 60px;
+    margin-right: -36px;
+    font-size: 16px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 10px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:610px !important;
+    height:380px !important;
+    margin-right: -40px !important;
+    margin-top:-30px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:600px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:280px !important;
+  }
+  .email input{
+    width:280px !important;
+  }
+  .form button{
+    padding:12px 236px;
+  }
+}
+@media only screen and (min-width: 627px) and (max-width: 646px){
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+    width:550px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 70px;
+    margin-left: -17px;
+  }
+  .menu-item h4{
+    font-size:16px;
+  } 
+  .menu-item p{
+    font-size:11.9px;
+  } 
+  .menu-price{
+    padding-top: 60px;
+    margin-right: -38px;
+    font-size: 16px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 15px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:580px !important;
+    height:370px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:580px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:270px !important;
+  }
+  .email input{
+    width:270px !important;
+  }
+  .form button{
+    padding:12px 226px;
+  }
+} 
+@media only screen and (min-width: 587px) and (max-width: 626px){
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+    width:520px;
+  }
+ /* MENU */
+ .menu-item{
+  padding-top: 65px;
+  margin-left: -17px;
+  }
+  .menu-item h4{
+    font-size:16px;
+  } 
+  .menu-item p{
+    font-size:11px;
+  } 
+  .menu-price{
+    padding-top: 55px;
+    margin-right: -38px;
+    font-size: 16px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 15px;
+  }
+    /* CONTACT */
+    .container-contact .map iframe{
+      width:540px !important;
+      height:350px !important;
+      margin-right: -35px !important;
+      margin-top:-40px;
+    }
+    .container-contact .form{
+      padding-top:30px !important;
+      padding:10px;
+      width:540px !important;
+      margin-right: 10px;
+    }
+    .name input{
+      margin-right:20px;
+      width:250px !important;
+    }
+    .email input{
+      width:250px !important;
+    }
+    .form button{
+      padding:12px 206px;
+    }
+}
+@media only screen and (min-width: 577px) and (max-width: 586px){
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:5px;
+    width:500px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 65px;
+    margin-left: -17px;
+  }
+  .menu-item h4{
+    font-size:16px;
+  } 
+  .menu-item p{
+    font-size:11px;
+  } 
+  .menu-price{
+    padding-top: 55px;
+    margin-right: -38px;
+    font-size: 16px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 15px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:540px !important;
+    height:340px !important;
+    margin-right: -35px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:540px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:250px !important;
+  }
+  .email input{
+    width:250px !important;
+  }
+  .form button{
+    padding:12px 206px;
+  }
+}
+@media only screen and (min-width: 552px) and (max-width: 576px){
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:5px;
+  }
+  /* MENU */
+ .menu-item{
+  padding-bottom: 40px;
+  }
+  .menu-price{
+    padding-bottom: 55px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 15px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:520px !important;
+    height:330px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:520px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:240px !important;
+  }
+  .email input{
+    width:240px !important;
+  }
+  .form button{
+    padding:12px 196px;
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 551px){
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 20px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:150px;
+  }
+  .container-testimonials .caption2 p{
+    padding-bottom: 10px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:170px;
+  } 
+}
+@media only screen and (min-width: 507px) and (max-width: 529px){
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 20px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:160px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:180px;
+  } 
+}
+@media only screen and (min-width: 507px) and (max-width: 551px){
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+  }
+  /* MENU */
+ .menu-item{
+  padding-bottom: 30px;
+  }
+  .menu-price{
+    padding-bottom: 65px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:470px !important;
+    height:320px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:470px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:215px !important;
+  }
+  .email input{
+    width:215px !important;
+  }
+  .form button{
+    padding:12px 171px;
+  }
+}
+@media only screen and (min-width: 447px) and (max-width: 506px){
+  /* CAROUSAL SLIDER*/
+  .container-slider .carousel-caption h1{
+    font-size: 38px;
+  }
+  .container-slider .carousel-caption p{
+    font-size: 16px;
+  }
+  .container-slider .carousel-caption{
+    width:50%;
+  }
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:5px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-bottom: 10px;
+  }
+  .menu-price{
+    padding-bottom: 40px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 20px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:160px;
+  }
+  .container-testimonials .caption1 p{
+  position: relative;
+  top:170px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:180px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:410px !important;
+    height:300px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:410px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:185px !important;
+  }
+  .email input{
+    width:185px !important;
+  }
+  .form button{
+    padding:12px 141px;
+  }
+}  
+@media only screen and (min-width: 420px) and (max-width: 446px){
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 30px;
+    right:8px;
+}
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:160px;
+}
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:180px;
+  }
+}
+@media only screen and (min-width: 392px) and (max-width: 419px){
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 30px;
+    right:8px;
+    font-size: 41px;
+}
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:160px;
+    font-size: 20px;
+}
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:180px;
+  }
+}
+@media only screen and (min-width: 392px) and (max-width: 446px){
+  /* CAROUSAL SLIDER*/
+  .container-slider .carousel-caption h1{
+    font-size: 38px;
+  }
+  .container-slider .carousel-caption{
+    width:52%;
+  }
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:10px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 20px;
+  }
+  .menu-price{
+    padding-top: 30px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:360px !important;
+    height:280px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:360px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:340px !important;
+  }
+  .email input{
+    width:340px !important;
+  }
+  .form button{
+    padding:12px 116px;
+  }
+}
+@media only screen and (min-width: 357px) and (max-width: 391px){
+  /* CAROUSAL SLIDER*/
+  .container-slider .carousel-caption h1{
+    font-size: 35px;
+  }
+  .container-slider .carousel-caption{
+    width:52%;
+  }
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 30px;
+    }
+  .menu-price{
+    padding-top: 30px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 30px;
+    right:20px;
+    font-size: 39px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:170px;
+    font-size: 19px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:180px;
+  }
+  .container-testimonials .carousel-caption div span{
+    font-size: 17px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:320px !important;
+    height:260px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:320px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:300px !important;
+  }
+  .email input{
+    width:300px !important;
+  }
+  .form button{
+    padding:12px 96px;
+  }
+} 
+@media only screen and (min-width: 317px) and (max-width: 356px){
+  /* CAROUSAL SLIDER*/
+  .container-slider .carousel-caption h1{
+    font-size: 32px;
+  }
+  .container-slider .carousel-caption{
+    width:53%;
+  }
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 50px;
+    margin-left: -10px;
+    }
+  .menu-item h4{
+    font-size: 20px;
+  }
+  .menu-item p{
+    font-size: 14px;
+  }
+  .menu-price{
+    padding-top: 50px;
+    margin-right: -20px;
+    font-size: 17px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 30px;
+    right:27px;
+    font-size: 34px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:160px;
+    font-size: 17px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:180px;
+  }
+  .container-testimonials .carousel-caption div span{
+    font-size: 15px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:280px !important;
+    height:250px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:280px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:260px !important;
+  }
+  .email input{
+    width:260px !important;
+  }
+  .form button{
+    padding:12px 76px;
+  }
+} 
+@media only screen and (min-width: 295px) and (max-width: 316px){
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 30px;
+    right:30px;
+    font-size: 30px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:160px;
+    font-size: 17px;
+  }
+  .container-testimonials .caption3 p{
+    position: relative;
+    top:140px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:170px;
+  }
+  .container-testimonials .carousel-caption div span{
+    font-size: 14px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:260px !important;
+    height:240px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:260px !important;
+    margin-right: 10px;
+  }
+  .name input{
+    margin-right:20px;
+    width:240px !important;
+  }
+  .email input{
+    width:240px !important;
+  }
+  .form button{
+    padding:12px 66px;
+  }
+}
+@media only screen and (min-width: 278px) and (max-width: 294px){
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 35px;
+    right:35px;
+    font-size: 28px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:160px;
+    font-size: 16px;
+  }
+  .container-testimonials .caption3 p{
+    position: relative;
+    top:140px;
+    font-size: 16px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:170px;
+  }
+  .container-testimonials .carousel-caption div h4{
+    font-size: 20px;
+  }
+  .container-testimonials .carousel-caption div span{
+    font-size: 14px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:240px !important;
+    height:220px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:10px;
+    width:240px !important;
+    margin-right: 10px;
+  }
+  .container-contact .form h2{
+    font-size: 28px;
+  }
+  .name input{
+    margin-right:20px;
+    width:220px !important;
+  }
+  .email input{
+    width:220px !important;
+  }
+  .form button{
+    padding:12px 56px;
+  }
+}
+@media only screen and (min-width: 278px) and (max-width: 316px){
+  /* CAROUSAL SLIDER*/
+  .container-slider .carousel-caption h1{
+    font-size: 30px;
+  }
+  .container-slider .carousel-caption p{
+    font-size: 15px;
+  }
+  .container-slider .carousel-caption{
+    width:54%;
+  }
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 60px;
+    margin-left: -10px;
+    line-height: 4px;
+    }
+  .menu-item h4{
+    font-size: 18px;
+  }
+  .menu-item p{
+    font-size: 14px;
+  }
+  .menu-price{
+    padding-top: 70px;
+    margin-right: -20px;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 237px) and (max-width: 277px){
+  /* CAROUSAL SLIDER*/
+  .container-slider .carousel-caption h1{
+    font-size: 28px;
+  }
+  .container-slider .carousel-caption p{
+    font-size: 14px;
+  }
+  .container-slider .carousel-caption{
+    width:54%;
+  }
+  .container-slider .carousel-caption button{
+    padding: 8px 12px;
+  }
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 68px;
+    margin-left: -15px;
+    line-height: 14px;
+    }
+  .menu-item h4{
+    font-size: 16px;
+  }
+  .menu-item p{
+    font-size: 14px;
+  }
+  .menu-price{
+    padding-top: 80px;
+    margin-right: -36px;
+    font-size: 15px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 35px;
+    right:47px;
+    font-size: 28px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:170px;
+    font-size: 16px;
+  }
+  .container-testimonials .caption3 p{
+    position: relative;
+    top:150px;
+    font-size: 16px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:170px;
+  }
+  .container-testimonials .carousel-caption div h4{
+    font-size: 20px;
+  }
+  .container-testimonials .carousel-caption div span{
+    font-size: 14px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:200px !important;
+    height:200px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:7px;
+    width:200px !important;
+    margin-right: 10px;
+  }
+  .container-contact .form h2{
+    font-size: 24px;
+  }
+  .name input{
+    margin-right:20px;
+    width:185px !important;
+  }
+  .email input{
+    width:185px !important;
+  }
+  .form button{
+    padding:10px 39px;
+  }
+}
+@media only screen and (min-width: 212px) and (max-width: 236px){
+  /* CAROUSAL SLIDER*/
+  .container-slider .carousel-caption h1{
+    font-size: 26px;
+  }
+  .container-slider .carousel-caption p{
+    font-size: 14px;
+  }
+  .container-slider .carousel-caption{
+    width:55%;
+  }
+  .container-slider .carousel-caption button{
+    padding: 8px 5px;
+  }
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 65px;
+    margin-left: -17px;
+    line-height: 14px;
+    }
+  .menu-item h4{
+    font-size: 16px;
+  }
+  .menu-item p{
+    font-size: 14px;
+  }
+  .menu-price{
+    padding-top: 80px;
+    margin-right: -36px;
+    font-size: 15px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 40px;
+    right:58px;
+    font-size: 26px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:190px;
+    font-size: 16px;
+  }
+  .container-testimonials .caption1 p{
+    position: relative;
+    top:230px;
+    font-size: 16px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:210px;
+  }
+  .container-testimonials .carousel-caption div h4{
+    font-size: 20px;
+  }
+  .container-testimonials .carousel-caption div span{
+    font-size: 14px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:180px !important;
+    height:180px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:7px;
+    width:180px !important;
+    margin-right: 10px;
+  }
+  .container-contact .form h2{
+    font-size: 24px;
+  }
+  .name input{
+    margin-right:20px;
+    width:165px !important;
+  }
+  .email input{
+    width:165px !important;
+  }
+  .form button{
+    padding:10px 29px;
+  }
+}
+@media only screen and (min-width: 196px) and (max-width: 211px){
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 50px;
+    right:65px;
+    font-size: 22px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:190px;
+    font-size: 15px;
+  }
+  .container-testimonials .caption1 p{
+    position: relative;
+    top:232px;
+    font-size: 15px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:220px;
+  }
+  .container-testimonials .carousel-caption div h4{
+    font-size: 20px;
+  }
+  .container-testimonials .carousel-caption div span{
+    font-size: 14px;
+  }
+  .container-testimonials .carousel-indicators li{
+    position: relative;
+    top:260px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:160px !important;
+    height:170px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:7px;
+    width:160px !important;
+    margin-right: 10px;
+  }
+  .container-contact .form h2{
+    font-size: 23px;
+  }
+  .name input{
+    margin-right:20px;
+    width:145px !important;
+  }
+  .email input{
+    width:145px !important;
+  }
+  .form button{
+    padding:10px 19px;
+  }
+}
+@media only screen and (min-width: 173px) and (max-width: 195px){
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 50px;
+    right:62px;
+    font-size: 20px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:240px;
+    font-size: 14px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:240px;
+  }
+  .container-testimonials .carousel-caption div h4{
+    font-size: 20px;
+  }
+  .container-testimonials .carousel-caption div span{
+    font-size: 12px;
+  }
+  .container-testimonials .carousel-indicators li{
+    position: relative;
+    top:260px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:140px !important;
+    height:150px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:8px;
+    width:140px !important;
+    margin-right: 10px;
+  }
+  .container-contact .form h2{
+    font-size: 22px;
+  }
+  .name input{
+    margin-right:20px;
+    width:125px !important;
+  }
+  .email input{
+    width:125px !important;
+  }
+  .form button{
+    padding:10px 8px;
+  }
+}
+@media only screen and (min-width: 173px) and (max-width: 211px){
+  /* CAROUSAL SLIDER*/
+  .container-slider .carousel-caption h1{
+    font-size: 21px;
+  }
+  .container-slider .carousel-caption p{
+    font-size: 12px;
+  }
+  .container-slider .carousel-caption{
+    width:50%;
+  }
+  .container-slider .carousel-caption button{
+    padding: 8px 7px;
+  }
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 50px;
+    margin-left: -17px;
+    line-height: 7px;
+    }
+  .menu-item h4{
+    font-size: 10px;
+  }
+  .menu-item p{
+    font-size: 9px;
+  }
+  .menu-price{
+    padding-top:50px;
+    margin-right: -36px;
+    font-size: 10px;
+  }
+  
+} 
+@media only screen and (max-width: 172px){
+  /* CAROUSAL SLIDER*/
+  .container-slider .carousel-caption h1{
+    font-size: 18px;
+  }
+  .container-slider .carousel-caption p{
+    font-size: 12px;
+  }
+  .container-slider .carousel-caption{
+    width:50%;
+  }
+  .container-slider .carousel-caption button{
+    padding: 8px 7px;
+  }
+  /* ABOUT */
+  .about-image img{
+    position: relative;
+    top:3px;
+  }
+  .about-container h3{
+    font-size: 26px;
+  }
+  /* CHEF */
+  .header h4{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .header p{
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .card-image{
+    width:80%;
+  }
+  .figcaption h4{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .figcaption p{
+    font-size: 13px;
+    font-weight: bold;
+  }
+  /* MENU */
+  .menu-item{
+    padding-top: 50px;
+    margin-left: -17px;
+    line-height: 9px;
+    }
+  .menu-item h4{
+    font-size: 10px;
+  }
+  .menu-item p{
+    position: relative;
+    bottom: 5px;
+    font-size: 9px;
+  }
+  .menu-price{
+    padding-top:50px;
+    margin-right: -36px;
+    font-size: 10px;
+  }
+  /* TESTIMONIAL */
+  .container-testimonials .carousel-inner > h1{
+    position:relative;
+    bottom: 50px;
+    right:78px;
+    font-size: 20px;
+  }
+  .container-testimonials .carousel-caption p{
+    position: relative;
+    top:290px;
+    font-size: 14px;
+  }
+  .author2{
+    padding-top: 10px;
+  }
+  .container-testimonials .carousel-caption div{
+    position: relative;
+    top:290px;
+  }
+  .container-testimonials .carousel-caption div h4{
+    font-size: 18px;
+  }
+  .container-testimonials .carousel-caption div span{
+    font-size: 12px;
+  }
+  .container-testimonials .carousel-indicators li{
+    position: relative;
+    top:300px;
+  }
+  /* CONTACT */
+  .container-contact .map iframe{
+    width:126px !important;
+    height:150px !important;
+    margin-right: -40px !important;
+    margin-top:-40px;
+  }
+  .container-contact .form{
+    padding-top:30px !important;
+    padding:8px;
+    width:125px !important;
+    margin-left:27px;
+  }
+  .container-contact .form h2{
+    font-size: 22px;
+    text-align: center;
+  }
+  .name input{
+    margin-right:20px;
+    width:110px !important;
+  }
+  .email input{
+    width:110px !important;
+  }
+  .form button{
+    padding:8px 1px;
+  }
+}
+
+/* ----------------------------------------
+            BODY (END)              
+----------------------------------------- */
+
+
+/* ----------------------------------------
+            FOOTER (START)              
+----------------------------------------- */
+
+@media only screen and (min-width: 700px) and  (max-width: 970px){
+  /* FOOTER */
+  .container-footer{
+    justify-content: space-evenly;
+  }
+  .container-footer > div{
+    margin-right:30px !important;
+    margin-left:50px !important;
+  }
+  .opening-time{
+    position: relative;
+    top:40px;
+    right: 40px;
+  }
+  .copy-right{
+    position: relative;
+    top:80px;
+    right:80px;
+  }
+}
+@media only screen and (min-width: 585px) and  (max-width: 699px){
+  /* FOOTER */
+  .container-footer{
+    justify-content: space-evenly;
+  }
+  .reservation{
+    position: relative;
+    left:50px;
+    padding-right: 20px;
+  }
+  .opening-time{
+    position: relative;
+    top:40px;
+    right: 30px;
+    width:290px;
+  }
+  .opening-hours h2 {
+    position: relative;
+    right:30px;
+  }
+  .opening-hours p,strong {
+    position: relative;
+    right:30px;
+  }
+  .opening-time > div{
+    width: 290px;
+  }
+  .copy-right{
+    position: relative;
+    top:80px;
+    right:35px;
+  }
+}
+@media only screen and (min-width: 521px) and  (max-width: 584px){
+  /* FOOTER */
+  .container-footer{
+    justify-content: space-between;
+  }
+  .reservation{
+    padding-left: 60px;
+  }
+  .opening-time{
+    position: relative;
+    top:40px;
+    right: 10px;
+    width:250px;
+  }
+  .opening-hours h2 {
+    position: relative;
+    right:40px;
+  }
+  .opening-hours p,strong {
+    position: relative;
+    right:40px;
+  }
+  .opening-time > div{
+    width: 250px;
+  }
+  .copy-right{
+    position: relative;
+    top:80px;
+    right:60px;
+  }
+}
+@media only screen and (min-width: 450px) and  (max-width: 520px){
+  /* FOOTER */
+  .container-footer{
+    justify-content: space-between;
+  }
+  .reservation{
+    padding-right: 60px;
+  }
+  .opening-time{
+    position: relative;
+    top:40px;
+    width:80%;
+  }
+  .opening-time > div{
+    width:100%;
+  }
+  .copy-right{
+    position: relative;
+    top:80px;
+  }
+}
+@media only screen and (min-width: 350px) and  (max-width: 449px){
+  /* FOOTER */
+  .container-footer{
+    justify-content: space-between;
+  }
+  .opening-time{
+    position: relative;
+    top:40px;
+    width:80%;
+  }
+  .opening-time > div{
+    width: 100%;
+  }
+  .opening-time > div{
+    width: 100%;
+  }
+  .opening-hours h2 {
+    position: relative;
+    right:40px;
+  }
+  .opening-hours p,strong {
+    position: relative;
+    right:40px;
+  }
+  .copy-right{
+    position: relative;
+    top:80px;
+  }
+}
+@media only screen and (min-width: 295px) and  (max-width: 349px){
+  /* FOOTER */
+  .container-footer{
+    justify-content: space-between;
+  }
+  .opening-time{
+    position: relative;
+    top:40px;
+    right: 5px;
+    width:80%;
+  }
+  .opening-time > div{
+    width: 100%;
+  }
+  .opening-time > div{
+    width: 100%;
+  }
+  .opening-hours h2 {
+    position: relative;
+    right:55px;
+    font-size: 26px;
+  }
+  .opening-hours p,strong {
+    position: relative;
+    right:55px;
+    font-size: 14px;
+  }
+  .copy-right{
+    position: relative;
+    top:80px;
+  }
+}
+@media only screen and (min-width: 200px) and  (max-width: 294px){
+  /* FOOTER */
+  .container-footer{
+    justify-content: space-between;
+  }
+  .container-footer > div >h2{
+    font-size: 25px;
+  }
+  .container-footer > div >p,strong{
+    font-size: 15px;
+  }
+  .find-us{
+    width:80%;
+  }
+  .reservation{
+    width:80%;
+  }
+  .opening-time{
+    position: relative;
+    top:40px;
+    right: 5px;
+    width:80%;
+  }
+  .opening-time > div{
+    width: 100%;
+  }
+  .opening-time > div{
+    width: 100%;
+  }
+  .opening-hours h2 {
+    position: relative;
+    right:55px;
+    font-size: 26px;
+  }
+  .opening-hours p,strong {
+    position: relative;
+    right:55px;
+    font-size: 14px;
+  }
+  .copy-right{
+    position: relative;
+    top:80px;
+    width:80%;
+  }
+}
+
+/* ------------------------------------------
+            FOOTER (END)              
+-----------------------------------------  */

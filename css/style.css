@@ -1,0 +1,519 @@
+ body,html{
+   margin:0;
+   padding:0;
+ }
+
+ /* ----------------------------------------
+              NAV BAR              
+-----------------------------------------  */
+
+.navbar a{
+  color:white !important;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.nav-item a:hover,
+.nav-item a:focus{
+  color:rgb(190, 48, 48) !important;
+}
+.nav2{
+  position:relative;
+  top:10px; 
+}
+.bg-dark{
+  transition:500ms ease-in-out;
+  background: transparent !important;
+}
+.bg-dark.scrolled{
+  background: white !important;
+  box-shadow:0 2px 8px grey;
+}
+.bg-dark.scrolled a{
+  color:black !important;
+}
+.bg-dark.scrolled .nav-item a:hover,
+.bg-dark.scrolled .nav-item a:focus{
+  color:rgb(190, 48, 48)  !important;
+}
+nav div ul li a{
+  font-size: 13px;
+}
+.navbar > a > span{
+  color:rgb(190, 48, 48) !important;
+  padding:0 4px 0 4px;
+  font-size: 22px;
+  font-weight: bold; 
+}
+nav.top-nav-collapse {
+  transition: all 300ms ease-in-out;
+  background-color: white !important;
+  text-align:center;
+}
+nav.top-nav-collapse .navbar-brand {
+  color: black !important;
+  font-size: 22px;
+  font-weight: bold;
+}
+nav.top-nav-collapse .nav-item a{
+  color:black !important;
+  font-weight:bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+nav.top-nav-collapse div li a button {
+  padding: 8px 150px !important;
+}
+nav.top-nav-collapse-1 div li a button {
+  padding: 8px 70px 8px 70px !important;
+}
+nav.top-nav-collapse-2 div li a button {
+  padding: 8px 20px 8px 20px !important;
+}
+nav.top-nav-collapse .nav-item a:hover,
+nav.top-nav-collapse .nav-item a:focus{
+  color:rgb(190, 48, 48) !important;
+}
+nav.top-nav-collapse.navbar-brand{
+  text-align:left;
+}
+#btn0 {
+  background-color: rgb(190, 48, 48);
+  color:white;
+  padding:8px 22px;
+}
+#btn0:hover,
+#btn0:focus{
+  background-color: rgb(48, 46, 46);
+  transition:1s;
+}
+
+ /* ----------------------------------------
+              CAROUSAL SLIDER              
+-----------------------------------------  */
+
+.container-slider .carousel-item{
+  width:120%;
+  margin:0;
+}
+.container-slider .carousel-caption{
+  position: absolute;
+  bottom:30%;
+  left:7%;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  width:42%;
+  margin:0;
+}
+.container-slider .carousel-inner .carousel-item img{
+  width: 100%;
+  height: 650px; 
+}
+.container-slider .carousel-caption p{
+  letter-spacing: 0.1%;
+}
+.container-slider .carousel-caption h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+.container-slider .carousel-caption button{
+  position: relative !important;
+  top:25px !important;
+  color: white;
+  padding: 8px 22px;
+}
+.container-slider .carousel-caption #btn1{
+  background-color: rgb(190, 48, 48);
+}
+.container-slider .carousel-caption #btn1:hover,
+.container-slider .carousel-caption #btn1:focus{
+  background-color: rgb(219, 219, 219);
+  color:black;
+  transition:1s;
+}
+.container-slider .carousel-caption #btn2{
+  background-color: rgb(53, 53, 53);
+  }
+.container-slider .carousel-caption #btn2:hover{
+  background-color: rgb(219, 219, 219);
+  color:black;
+  transition:1s;
+}
+.container-slider .carousel-caption #btn3{
+  border: 1px solid white;
+}
+.container-slider .carousel-caption #btn3:hover,
+.container-slider .carousel-caption #btn3:focus{
+  border:none;
+  background-color: rgb(197, 36, 36);
+  color:white;
+  transition:1s;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 650px !important;
+}
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+
+ /* ----------------------------------------
+              ABOUT              
+-----------------------------------------  */
+
+.about-container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.about-container h6, p{
+  color:grey;
+}
+.about-container h6, h3{
+  font-weight: bold;
+}
+.about-container h3{
+  font-size: 31px;
+}
+.about-container h6{
+  font-size: 13px;
+}
+.about-text{
+  width:100%;
+}
+.about-image img{
+  position: relative;
+  bottom:30px;
+  width:100%;
+}
+.about-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+/* ----------------------------------------
+              CHEFS              
+-----------------------------------------  */
+
+section{
+  background: rgb(241, 241, 241);
+  position: relative;
+  bottom: 80px;
+  padding: 120px 0 30px 0;
+}
+.header{
+  position: relative;
+  bottom:50px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section h4,p{
+  font-weight: bold;
+}
+.item {
+  justify-content: center;
+  text-align:center;
+  width:100%;
+  transition: 2s ease-in-out;
+  overflow:hidden;
+}
+.container .card-image{
+  position: relative;
+  bottom:50px;
+  height:450px ;
+  width:100%;
+  overflow: hidden;
+}
+.container .card-image img{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.container .card-image:hover img{
+  transform: scale(1.2);
+  transform-origin: 50% 50%;
+  transform:2s;
+  overflow:hidden;
+}
+.card-content {
+  align-items: center;
+  background-color: rgba(37, 36, 36, 0.9);
+  color: #fff;
+  height: 100%;
+  padding-top: 200px;
+  position: absolute;
+  text-align: center !important;
+  top: 0;
+  transform: translateY(100%);
+  transition: .8s ease-in-out;
+  width:100%;
+}
+.card-content div {
+margin:15px;
+}
+.card-content div i{
+  padding:14px;
+  margin:5px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: rgb(75, 75, 75);
+  color:white;
+}
+.card-content div i:hover{
+  background-color: rgb(158, 41, 41);
+}
+.container .card-image:hover .card-content{
+  transform: translateY(0);
+  display:block;
+}
+.figcaption{
+  text-align: center;
+  padding-bottom:80px; 
+}
+.card{
+  background-color: transparent;
+  border:none;
+  position: relative;
+  top:50px;
+  width:100%;
+}
+
+/* ----------------------------------------
+              MENU              
+-----------------------------------------  */
+
+.menu-header{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.menu-header h4{
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.menu-container{
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-wrap: wrap;
+}
+.card-menu{
+  width:100%;
+  height:60%;
+  overflow: hidden !important;
+  margin:0;
+  padding:0;
+}
+.menu-container .card-menu img{
+  width:100%;
+  height:100%;
+  transition: all 1.5s ease-in-out;
+}
+.menu-container .card-menu:hover img{
+  transform: scale(1.2);
+  transform-origin: 50% 50%;
+  transform:2s;
+  overflow: hidden;
+}
+.card-menu-content {
+  align-items: center;
+  background-color: rgba(37, 36, 36, 0.9);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+  padding: 0 40px 160px 20px;
+  top: 60%;
+  transform: translateY(100%);
+  transition: .8s ease-in-out;
+  width:100%;
+  overflow: hidden;
+}
+.menu-price{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.menu-container .card-menu:hover .card-menu-content{
+  transform: translateY(0);
+}
+
+/* ----------------------------------------
+              TESTIMONIALS              
+-----------------------------------------  */
+
+.container-testimonials{
+  background: url('../images/testimonial-bg.jpg') center center no-repeat;
+  background-size: cover;
+  height:500px;
+}
+.container-testimonials .carousel-inner{
+  overflow:visible;
+}
+.container-testimonials .carousel-inner > h1{
+  padding:90px;
+  text-align: center;
+  color:white;
+  font-size: 45px;
+}
+.container-testimonials .carousel-caption p{
+  position: relative;
+  top:120px;
+  line-height: 20px;
+  color:rgb(192, 201, 199);
+  font-size: 21px;
+}
+.container-testimonials .carousel-caption div{
+  position: relative;
+  top:140px;
+  color:rgb(192, 201, 199);
+}
+.container-testimonials .carousel-caption div span{
+  font-size: 18px;
+}
+.container-testimonials .carousel-indicators li{
+  position: relative;
+  bottom:135px !important;
+}
+
+/* ----------------------------------------
+              CONTACT              
+-----------------------------------------  */
+
+.container-contact{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+/* MAP */
+.map{
+  margin-right: 30px;
+}
+/* FORM */
+.form{
+  margin-right: 50px;
+  width:500px;
+}
+input, textarea {
+  border-top: none !important;
+  border-left:none !important;
+  border-right:none !important;
+  margin-top: 30px;
+}
+.name input{
+  margin-right:20px;
+  width:240px !important;
+}
+.email input{
+  width:240px !important;
+}
+.form button:hover{
+  background-color: black;
+  color:white;
+  transition: 0.4s ease-in-out;
+}
+.form button{
+  border:none;
+  border-radius: 0;
+  padding:12px 196px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* ----------------------------------------
+              FOOTER              
+-----------------------------------------  */
+
+footer{
+  border-top: 0.1px ridge grey;
+  position: relative;
+  top:100px;
+}
+.container-footer{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top:100px;
+  margin-bottom:100px;
+  justify-content: space-around;
+}
+.reservation{
+  line-height: 10px;
+}
+.container-footer div ul {
+  list-style-type: none;
+}
+.container-footer div ul li {
+  float:left;
+  position: relative;
+  right:35px;
+}
+.container-footer div ul li a{
+  color:rgb(192, 59, 59);
+  font-size: 18px;
+  padding:7px;
+  border-radius: 50%;
+}
+.container-footer div ul li a:hover{
+  background-color: rgb(192, 59, 59);
+  color: white;
+  transition: all 0.6s ease-in-out;
+}
+.container-footer div a{
+  color:grey;
+  text-decoration: none;
+}
+.container-footer div a:hover{
+  color:rgb(179, 62, 62);
+}
+.opening-time{
+  background: url('../images/footer-open-hour-bg.jpg') center center no-repeat;
+  background-size: cover;
+  border-radius:20px;
+  height:280px;
+  width:330px;
+  position: relative;
+  bottom:30px;
+  color:white;
+}
+.opening-time > div{
+  background: rgba(29,29,29,0.85);
+  border-radius:20px;
+  width:330px;
+  height:100%;
+}
+.opening-time > div > div {
+  position: relative;
+  top:35px;
+  left:70px;
+}
